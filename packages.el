@@ -47,3 +47,10 @@
 ;; (unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;; (unpin! t)
+(package! lsp-mode)
+
+(package! odin-mode
+  :recipe (:host github :repo "mattt-b/odin-mode"))
+
+(package! odin-ts-mode
+  :recipe (:host github :repo "Sampie159/odin-ts-mode"))
